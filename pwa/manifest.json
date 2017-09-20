@@ -1,13 +1,13 @@
 {
-  "name": "Hux Blog",
-  "short_name": "Hux Blog",
-  "description": "About an engineer & designer who loves web.",
+  "name": "Blog",
+  "short_name": "Blog",
+  "description": "Thinking...",
   "icons": [{
-    "src": "icons/128.png",
+    "src": "img/icon_wechat.png",
     "sizes": "128x128",
     "type": "image/png"
   }, {
-    "src": "icons/512.png",
+    "src": "img/icon_wechat.png",
     "sizes": "512x512",
     "type": "image/png"
   }],
