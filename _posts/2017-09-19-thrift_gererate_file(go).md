@@ -9,10 +9,10 @@ header-mask: 0.3
 catalog:    true
 tags:
     - thrift
-    - golang
+    - go
 ---
 
-## thrift文件内容
+## [thrift文件内容][1]
 ```
 struct mydata {
   1: i32 myparam1,
@@ -26,7 +26,7 @@ service myser {
 
 ```
 
-## ttypes.go文件内容
+## [ttypes.go文件内容][2]
 
 ### 结构体 Mydata 
 * 函数 NewMydata()
@@ -48,7 +48,7 @@ service myser {
 * 内部函数 writeField2()
 * 函数 String()
 
-## myser.go文件内容
+## [myser.go文件内容][3]
 
 ### 接口 Myser
 * Myif1(funparam1 int32, funparam2 string) (r *Mydata, err error)
@@ -111,3 +111,7 @@ service myser {
 ### 辅助函数和辅助结构体
 * 将每一个接口的参数封装成结构体
 * 将每一个接口的返回值封装成结构体
+
+[1]:/file/2017-09-19-thrift_gererate_file(go)/example.thrift  "Thrift文件内容"
+[2]:/file/2017-09-19-thrift_gererate_file(go)/ttypes.go  "ttypes.go文件内容"
+[3]:/file/2017-09-19-thrift_gererate_file(go)/myser.go  "myser.go文件内容"
