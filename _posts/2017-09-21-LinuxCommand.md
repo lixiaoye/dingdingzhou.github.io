@@ -1,15 +1,14 @@
 ---
 layout:     post
-title:      "Linux Command"
-subtitle:   "Linux命令记录"
+title:      "Linux Command随记"
+subtitle:   "第一篇"
 date:       2017-09-20 14:00:00
 author:     "Dingding"
 header-img: "img/post/thrift-header.jpg"
 header-mask: 0.3
 catalog:    true
 tags:
-    - linux 
-    - command
+    - linux command
 ---
 
 ## uname
