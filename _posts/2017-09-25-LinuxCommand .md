@@ -14,13 +14,12 @@ tags:
 # awk
 pattern scanning and text processing language
 
-### 优秀博客
-
+* 优秀博客
 
 [三十分钟学会AWK](http://blog.jobbole.com/109089/)
 
 
-### 工作流程
+* 工作流程
 
 ```flow
 st=>start: Excute AWK commands from BEGIN block
@@ -36,7 +35,7 @@ cond(no,right)->read
 ```
 
 
-### 程序框架
+* 程序框架
 
 注意:BEGIN/End是awk的关键字,必须大写
 
