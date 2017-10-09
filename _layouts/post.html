@@ -99,7 +99,7 @@ layout: default
 
     <!-- 自定义音乐 -->
 
-    <div class="
+    <div id="music-net" class="
         col-lg-2 col-lg-offset-0
         visible-lg
         sidebar-container
@@ -108,9 +108,8 @@ layout: default
         <h5>
             <a class="catalog-toggle" href="#">MY LOVE</a>
         </h5>
-        <iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=195 height=86 src="//music.163.com/outchain/player?type=2&id=108914&auto=0&height=66"></iframe>
+        <iframe id="iframe-music" frameborder="no" border="0" marginwidth="0" marginheight="0" width=195 height=86 src="//music.163.com/outchain/player?type=2&id=108914&auto=0&height=66"></iframe>
     </div>
-    
     
     <!-- Side Catalog Container -->
         {% if page.catalog %}
@@ -239,3 +238,42 @@ layout: default
 </style>
 {% endif %}
 
+<!-- <script src="{{ "/js/jquery.min.js " | prepend: site.baseurl }}"></script>
+<script type="text/javascript">
+var IframeOnClick = {  
+    resolution: 200,  
+    iframes: [],  
+    interval: null,  
+    Iframe: function() {  
+        this.element = arguments[0];  
+        this.cb = arguments[1];   
+        this.hasTracked = false;  
+    },
+    track: function(element, cb) {  
+        this.iframes.push(new this.Iframe(element, cb));  
+        if (!this.interval) {  
+            var _this = this;  
+            this.interval = setInterval(function() { _this.checkClick(); }, this.resolution);  
+        }  
+    },
+    checkClick: function() {  
+        if (document.activeElement) {  
+            var activeElement = document.activeElement;  
+            for (var i in this.iframes) {  
+                if (activeElement === this.iframes[i].element) { // user is in this Iframe  
+                    console.log(this.iframes[i].element)
+                    if (this.iframes[i].hasTracked == false) {   
+                        this.iframes[i].cb.apply(window, []);   
+                        this.iframes[i].hasTracked = true;  
+                    }  
+                } else {  
+                    this.iframes[i].hasTracked = false;  
+                }  
+            }  
+        }  
+    }  
+};
+
+IframeOnClick.track(document.getElementById("iframe-music"), function() { alert('a click'); }); 
+
+</script> -->

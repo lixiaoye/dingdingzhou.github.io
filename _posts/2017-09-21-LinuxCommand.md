@@ -2,7 +2,7 @@
 layout:     post
 title:      "Linux Command随记"
 subtitle:   "第一篇"
-date:       2017-09-21 14:00:00
+date:       2017-09-21 12:00:00
 author:     "Dingding"
 header-img: "img/post/thrift-header.jpg"
 header-mask: 0.3
