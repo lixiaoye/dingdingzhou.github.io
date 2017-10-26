@@ -83,6 +83,11 @@ cb926e7ea50ad11b8f9e909c05226233bf755030 wrote a readme file
 * git stash pop   : 恢复并删除
 * git stash drop  : 删除
 
+## 提取修改
+* git show `commit-id` `filename`
+很实用
+
+
 
 ## 删除
 * git branch -D `branch-name` : 删除本地分支
@@ -98,18 +103,16 @@ cb926e7ea50ad11b8f9e909c05226233bf755030 wrote a readme file
 * git tag -d `tag-name` : 删除标签
 * git push origin :`branch-name/tags/tag-name` : 删除远程标签
 
-  ● 在GitHub上，可以任意Fork开源仓库；
-  ● 自己拥有Fork后的仓库的读写权限；
-  ● 可以推送pull request给官方仓库来贡献代码。
+
+
+
 
 小结
   ● 搭建Git服务器非常简单，通常10分钟即可完成；
   ● 要方便管理公钥，用Gitosis；
   ● 要像SVN那样变态地控制权限，用Gitolite。
-
-
-
-
+  
+  
 
 
 

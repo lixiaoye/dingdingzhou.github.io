@@ -1,7 +1,7 @@
 ---
 layout:     post
-title:      "Linux Command随记"
-subtitle:   "第二篇"
+title:      "Linux Command"
+subtitle:   "scp uniq cat ..."
 date:       2017-09-25 12:00:00
 author:     "Dingding"
 header-img: "img/post/thrift-header.jpg"
@@ -11,49 +11,12 @@ tags:
     - linux command
 ---
 
-# awk
-pattern scanning and text processing language
-
-* 优秀博客
-
-[三十分钟学会AWK](http://blog.jobbole.com/109089/)
-
-
-* 工作流程
-
-```flow
-st=>start: Excute AWK commands from BEGIN block
-e=>end: Excute AWK commands from END block
-
-read=>operation: Read a line from input stream
-execute=>operation: Execute AWK commands on a line
-cond=>condition: Is it End of File
-
-st->read->execute->cond
-cond(yes)->e
-cond(no,right)->read
-```
-
-
-* 程序框架
-
-注意:BEGIN/End是awk的关键字,必须大写
-
-```
-
-BEGIN {awk-commands}
-
-/pattern/ {awk-commands}
-
-END {awk-commands}
-```
-
-
 # scp
 secure copy (remote file copy program)
 
 *  scp  [parameters] [[user@]host1:]file1 ... [[user@]host2:]file2
 *  scp [参数] [原路径] [目标路径]
+*  -r  递归copy,用于目录
 
 
 
@@ -98,6 +61,32 @@ concatenate files and print on the standard output
 
 * -s : ln -s source dest  
 创建软连接,常用语将某个执行命令加入到PATH内的某个目录中
+
+
+
+## xargs
+build and execute command lines from standard input
+
+* 通常用于一些不支持不支持管道操作符的命令
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

@@ -1,0 +1,60 @@
+/home/mi/www/pls_v2/modules/develop/models/WaybillBackend.php:14:
+object(yii\db\Connection)[370]
+  public 'dsn' => string 'mysql:host=10.237.14.235;port=3306;dbname=xm_wp' (length=47)
+  public 'username' => string 'xiaomitest8' (length=11)
+  public 'password' => string 'xiaomitest8' (length=11)
+  public 'attributes' => null
+  public 'pdo' => null
+  public 'enableSchemaCache' => boolean false
+  public 'schemaCacheDuration' => int 3600
+  public 'schemaCacheExclude' => 
+    array (size=0)
+      empty
+  public 'schemaCache' => string 'cache' (length=5)
+  public 'enableQueryCache' => boolean true
+  public 'queryCacheDuration' => int 3600
+  public 'queryCache' => string 'cache' (length=5)
+  public 'charset' => null
+  public 'emulatePrepare' => null
+  public 'tablePrefix' => string 'xm_' (length=3)
+  public 'schemaMap' => 
+    array (size=10)
+      'pgsql' => string 'yii\db\pgsql\Schema' (length=19)
+      'mysqli' => string 'yii\db\mysql\Schema' (length=19)
+      'mysql' => string 'yii\db\mysql\Schema' (length=19)
+      'sqlite' => string 'yii\db\sqlite\Schema' (length=20)
+      'sqlite2' => string 'yii\db\sqlite\Schema' (length=20)
+      'sqlsrv' => string 'yii\db\mssql\Schema' (length=19)
+      'oci' => string 'yii\db\oci\Schema' (length=17)
+      'mssql' => string 'yii\db\mssql\Schema' (length=19)
+      'dblib' => string 'yii\db\mssql\Schema' (length=19)
+      'cubrid' => string 'yii\db\cubrid\Schema' (length=20)
+  public 'pdoClass' => null
+  public 'commandClass' => string 'yii\db\Command' (length=14)
+  public 'enableSavepoint' => boolean true
+  public 'serverStatusCache' => string 'cache' (length=5)
+  public 'serverRetryInterval' => int 600
+  public 'enableSlaves' => boolean true
+  public 'slaves' => 
+    array (size=0)
+      empty
+  public 'slaveConfig' => 
+    array (size=0)
+      empty
+  public 'masters' => 
+    array (size=0)
+      empty
+  public 'masterConfig' => 
+    array (size=0)
+      empty
+  private '_transaction' => null
+  private '_schema' => null
+  private '_driverName' => null
+  private '_slave' => boolean false
+  private '_queryCacheInfo' => 
+    array (size=0)
+      empty
+  private '_events' (yii\base\Component) => 
+    array (size=0)
+      empty
+  private '_behaviors' (yii\base\Component) => null

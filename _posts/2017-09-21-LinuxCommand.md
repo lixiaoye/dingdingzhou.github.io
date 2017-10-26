@@ -16,8 +16,9 @@ Print certain system information
 
 ## readlink
 print resolved symbolic links or canonical file names
+对于查找可执行文件的实际位置,一般可以先用whereis命令找到软连接,再用readlink找出实际位置
 
-* -r  
+* -f  
    canonicalize by following every symlink in every component of the given name recursively; all but the last component must exist
    
 ## export
