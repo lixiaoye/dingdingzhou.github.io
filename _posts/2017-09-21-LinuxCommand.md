@@ -40,6 +40,13 @@ print resolved symbolic links or canonical file names
 * sh filename与./filename 命令重新建立一个子shell，在子shell中执行脚本里的语句，该子shell继承父shell的环境变量，但子shell新建的、改变的变量不会被带回父shell，除非使用export。
 
 
+## date
+* date :当前时间
+* date +%s :当前时间戳
+* date -d @1436781720:时间戳转字符串
+* date -j -f "%Y-%m-%d %H:%M:%S" "2015-07-13 18:02:00" "+%s"
+
+
 
 
 
